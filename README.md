@@ -48,10 +48,11 @@ visible), 4:3. Many thanks to the authors above.
 
 ## ROMs
 
-ROMs are **not** included. Supply your own `mpatrol.zip` (MAME) and build the ROM
-with the bundled `.mra` recipe in `Assets/mpatrol/common/`, then place the
-resulting `mpatrol.rom` there. The `.mra` contains only filenames, CRC32s, and
-the assembly order — no copyrighted data.
+ROMs are **not** included. Build your own from the bundled `.mra` recipe in
+`Assets/mpatrol/common/` — it lists the required MAME romset files by name and
+CRC32, with no copyrighted data. Run it through the `mra` tool to produce
+`mpatrol.rom`, then keep that `.rom` in the same folder (and on your Pocket SD
+card).
 
 ## Credits
 
