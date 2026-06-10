@@ -1,0 +1,15 @@
+{
+    "data": {
+        "magic": "APF_VER_1",
+        "data_slots": [
+            {
+                "name": "Moon Patrol (Irem, 1982) ROM",
+                "id": 1,
+                "required": true,
+                "parameters": "0x108",
+                "filename": "mpatrol.rom",
+                "address": "0x00000000"
+            }
+        ]
+    }
+}

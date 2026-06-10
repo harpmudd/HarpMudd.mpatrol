@@ -1,0 +1,24 @@
+<misterromdescription>
+	<name>Moon Patrol</name>
+	<setname>mpatrol</setname>
+	<year>1982</year>
+	<manufacturer>Irem</manufacturer>
+	<!--
+	  HarpMudd Moon Patrol - Analogue Pocket core ROM recipe (no copyrighted data).
+	  Build:  mra mpatrol.mra   then copy the .rom into Assets/mpatrol/common/.
+	-->
+	<rom index="0" zip="mpatrol.zip" md5="none">
+		<part crc="5873a860" name="mpa-1.3m"></part>
+		<part crc="f4b85974" name="mpa-2.3l"></part>
+		<part crc="2e1a598c" name="mpa-3.3k"></part>
+		<part crc="dd05b587" name="mpa-4.3j"></part>
+		<part crc="e3ee7f75" name="mpe-5.3e"></part>
+		<part crc="cca6d023" name="mpe-4.3f"></part>
+		<part crc="707ace5e" name="mpb-2.3m"></part>
+		<part crc="9b72133a" name="mpb-1.3n"></part>
+		<part crc="a0919392" name="mpe-3.3h"></part>
+		<part crc="c7aa1fb0" name="mpe-2.3k"></part>
+		<part crc="c46a7f72" name="mpe-1.3l"></part>
+		<part crc="561d3108" name="mp-s1.1a"></part>
+	</rom>
+</misterromdescription>
