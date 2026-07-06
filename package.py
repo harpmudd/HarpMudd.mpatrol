@@ -4,7 +4,7 @@ package.py — Package the compiled Moon Patrol (Irem, 1982) core for the Analog
 Steps:
   1. Verify the bitstream exists in src/fpga/output_files/
   2. Convert .rbf -> .rbf_r (BIT-REVERSED bitstream for Pocket -- mandatory)
-  3. Copy bitstream to dist/Cores/HarpMudd.mpatrol/bitstream.rbf_r
+  3. Copy bitstream to dist/Cores/HarpMudd.Mpatrol/bitstream.rbf_r
   4. Run pack_rom.py to generate mpatrol.rom (if not already present)
   5. Print copy instructions for the Pocket SD card
 
@@ -22,7 +22,7 @@ import subprocess
 
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 BITSTREAM_SRC = os.path.join(PROJECT_ROOT, "src", "fpga", "output_files", "ap_core.rbf")
-DIST_CORE     = os.path.join(PROJECT_ROOT, "dist", "Cores", "HarpMudd.mpatrol")
+DIST_CORE     = os.path.join(PROJECT_ROOT, "dist", "Cores", "HarpMudd.Mpatrol")
 BITSTREAM_DST = os.path.join(DIST_CORE, "bitstream.rbf_r")
 ROM_DST       = os.path.join(PROJECT_ROOT, "dist", "Assets", "mpatrol", "common", "mpatrol.rom")
 PACK_ROM_PY   = os.path.join(PROJECT_ROOT, "pack_rom.py")
