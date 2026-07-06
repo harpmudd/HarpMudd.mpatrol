@@ -36,7 +36,7 @@ DEFAULT_ZIP_DIR = next(
                  os.path.join(os.path.dirname(HERE), "Downloaded_Artifacts"))
      if d and os.path.isdir(d)),
     HERE)
-ASSETS_DIR      = os.path.join(HERE, "Assets", "mpatrol", "common")
+ASSETS_DIR      = os.path.join(HERE, "dist", "Assets", "mpatrol", "common")
 
 ROM_IMAGE_SIZE = 0xC000   # 49152 bytes. Do NOT pad past this.
 
