@@ -1,4 +1,4 @@
-# Moon Patrol (Irem, 1982) — Analogue Pocket
+# Moon Patrol — Analogue Pocket
 
 An Analogue Pocket port of **Moon Patrol** (Irem, 1982) by **HarpMudd**, built on
 the openFPGA framework.
