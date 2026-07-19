@@ -61,7 +61,15 @@ card).
 - **FPGA arcade core:** PACE framework (Mark McDougall), sound board by Dar,
   cpu68 by John E. Kent
 - **Analogue Pocket port:** HarpMudd
-- **Z80 CPU core (T80):** Daniel Wallner, with later work by MikeJ, Sean Riddle, TobiFlex and Sorgelig
+- **Z80 CPU core (T80):**
+  - **Daniel Wallner** — original author (2001–2002, OpenCores)
+  - **Mike Johnson / MikeJ** (FPGAArcade) — DJNZ M1_n fix, clock enable, IM 2 fix
+    and interrupt-ack fix (v0232–0240); project tidy-up, March 2005 (Ver 300)
+  - **Sean Riddle** — parity flag for 8080 vs Z80 (Ver 301)
+  - **TobiFlex** — undocumented DDCB / FDCB opcodes (Ver 303, 20 April 2010)
+  - **Alexey Melnikov (Sorgelig)** — timing accuracy and ZEXDOC / ZEXALL /
+    Z80Full / Z80memptr verification (Ver 350, 2018), and the `T80pa`
+    pseudo-asynchronous top level
 - **SDRAM controller, data loader, I2S audio, sync FIFO:** Adam Gastineau (agg23)
 - **openFPGA framework (APF), bridge command handler, reference `core_top`:** Analogue
 - **PLL and other megafunctions:** Intel/Altera (Quartus-generated)
